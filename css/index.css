@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	font-size: 1rem;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: justify;
+}
+
+header {
+	width: 100%;
+}
+
+section {
+	width: 100%;
+}
+
+article {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+footer {
+	width: 100%;
+	height: 100%;
+	background-color: #29312e;
+	margin-top: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #2377C1CF;
+	position: fixed;
+	z-index: 10;
+}
+
+nav ul{
+	margin: 0;
+}
+
+#botonLogo{
+	margin-right: 0;
+	margin-left: 0;
+	height: 50px;
+	box-sizing: border-box;
+	padding-top: 2px;
+}
+
+nav li {
+	width: 10%;
+	margin-left: 1%;
+	margin-right: 1%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #ffffff;
+	float: left;
+    list-style: none;
+}
+
+
+nav li:hover {
+	background-color: #2377C1F0;
+	height: 100%;
+	padding: 0;
+	font-weight: bold;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Oculto el submenú */
+nav li > ul{
+	display: none;
+}
+/*Para activar el submenú con hover*/
+nav li:hover > ul{
+	padding: 0;
+	display: block;
+}
+nav li:hover > ul li{
+	width: 100%;
+	margin: 0;
+}
+nav li:hover > ul li:hover{
+	background-color: #125b9bf0;
+}
+
+/* Efecto Parallax */
+.bloque.parallax{
+	height: 600px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.parallax.image-1{
+	background-image:url(../recursos/img-cabecera.jpg);
+}
+
+.parallax.image-2{
+	background-image:url(../recursos/header-tips.jpg);
+}
+
+.parallax.image-3{
+	background-image:url(../recursos/header-contact.jpg);
+}
+
+.parallax.image-4{
+	background-image:url(../recursos/header-impresora.jpg);
+}
+.parallax.image-5{
+	background-image:url(../recursos/logo2.jpg);
+}
+
+#texto-header{
+	position: relative;
+	z-index: 1;
+	bottom: 15%;
+}
+/******************/
+
+.bck-gris{
+	width: 100%;
+	background-color: #e9e9ea;
+}
+
+.cont-2-elements{
+	width: 47%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.element-2-art{
+	margin-right: 4%;
+	font-size: 1.3rem;
+}
+
+article h1{
+	margin: 0;
+	font-size: 2.2rem;
+}
+
+.cont-3-elements{
+	width: 31%;
+	vertical-align: top;
+	display: inline-block;
+	margin: 2% 1%;
+}
+
+.cont-3-elements a{
+	text-decoration: none;
+}
+
+.boton-info-art{
+	width: 50%;
+	background-color: #125b9bf0;
+	padding: 4%;
+	border-radius: 6px;
+	color: #fff;
+	text-align: center;
+}
+
+.boton-info-art:hover{
+	background-color: #1773c3f0;
+	font-weight: bolder;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+#centrarArtIndex{
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#centrarArtIndex p{
+	margin-top: 4%;
+	font-size: 1.2rem;
+	text-align: justify;
+}
+
+.containtFooter {
+	width: 21%;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 18px;
+	margin-left: 9%;
+	vertical-align: top;
+}
+
+.containtFooter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.containtFooter h3 {
+	text-align: center;
+}
+
+.containtFooter img {
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.7;
+	transform: scale(0.9);
+}
+
+.containtFooter img:hover {
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.9;
+	transform: scale(1);
+}
+
+#centrarIconos a {
+	margin-left: 10%;
+	opacity: 0.8;
+	transform: scale(0.9);
+	display: inline-block;
+}
+
+#centrarIconos a:hover {
+	opacity: 1;
+	transform: scale(1);
+}
+
+table {
+	width: 100%;
+}
+
+table td {
+	width: 33%;
+}
+
+table td > table tr{
+	vertical-align: top;
+}
+
+table td > table td p{
+	padding-left: 2%;
+	padding-right: 3%;
+}
+
+
+.valores {
+	text-align: center;
+	font-size: 18px;
+	border-top: solid 1px #636464;
+	padding-top: 10px;
+	border-bottom: solid 1px #636464;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/** h1 Páginas de Información legal **/
+.infLegal{
+	font-size: 3rem;
+	padding: 5%;
+	margin-top: 0;
+	text-decoration: underline;
+}
+.infLegalText{
+	font-size: 1.2rem;
+}
+
+/** Página de tips**/
+.videoYT{
+	margin-top: 5%;
+}
+
+/**Página impresoras Maps**/
+.cont-elment-map{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.3rem;
+	display: block;
+	
+}
+
+.cont-elment-map h3{
+	padding-top: 0;
+	text-decoration: underline;
+}
+
+#filamento{
+	text-decoration: underline;
+	font-size: 2.4rem;
+}
+
+#resina{
+	text-decoration: underline;
+	font-size: 2.4rem;
+}
+
+/** Página FAQS **/
+#estilo-faqs{
+	font-size: 1.3rem;
+}
+
+/**Página de contactos**/
+#containContactos h1{
+	margin-bottom: 5%;
+
+}
+
+#containContactos form {
+	margin: 0 auto;
+	width: 80%;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 10%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	background-color: #2377C1B8;
+	border-radius: 15px;
+	color: #ffffff;
+}
+
+form p label {
+	vertical-align: top;
+}
+
+.botonForm {
+	padding: 1%;
+	border-radius: 7px;
+	font-weight: bold;
+	margin-left: 37%;
+}

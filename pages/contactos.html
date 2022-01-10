@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html" ; charset="utf-8">
+    <meta name="author" content="Adrián Alhama Esojo">
+    <meta name="copyright" content="Alhama Industries">
+    <meta name="generator" content="Dreamweaver Visual Studio">
+    <meta name="locality" content="Aguilar, Spain">
+    <meta name="reply-to" content="aalheso05@iesmarquesdecomares.org">
+    <meta name="keywords" content="3DLAND, Impresión 3D, Software 3D" />
+    <meta name="description" content="P&aacute;gina web sobre el mundo del 3D" />
+    <link href="../css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../recursos/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>CONTACTOS</title>
+</head>
+
+<body>
+    <header>
+      <nav>
+        <ul>
+            <li id="botonLogo"><a href="#TOP"><img src="../recursos/logo.png" alt="logo" width="45px"
+                        height="45px" /></a></li>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/impresoras.html">Impresoras</a>
+                <ul>
+                    <li><a href="../pages/impresoras.html">Filamento</a></li>
+                    <li><a href="../pages/impresoras.html">Resina</a></li>
+                </ul>
+            </li>
+            <li><a href="https://free3d.com/es/" target="_blank">Proyectos</a></li>
+            <li><a href="https://of3lia.com/mejores-programas-diseno-3d/" target="_blank">Programas</a></li>
+            <li><a href="../pages/tips.html">Tips</a></li>
+            <li><a href="faqs.html">../pages/FAQ's</a></li>
+            <li><a href="../pages/contactos.html">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <div class="bloque parallax image-3">
+            <img id="texto-header" src="../recursos/texto-header-contactos.png" alt="texto-logo" width="100%" />
+        </div>
+        <article id="containContactos">
+            <h1>¿Quieres contactar con nosotros?</h1>
+            <form id="form1" name="form1" method="post" action="/ServletEjemploFormularios">
+                <p>
+                  <label for="Nombre">Nombre:</label>
+                  <input type="text" name="Nombre" id="Nombre" />
+                </p>
+                <p>
+                  <label for="Apellidos">Apellidos:</label>
+                  <input type="text" name="Apellidos" id="Apellidos" />
+                </p>
+                <p>
+                  <label for="Descripcion">Descripción: </label>
+                  <textarea name="Descripcion" id="Descripcion" cols="45" rows="5"></textarea>
+                </p>
+                <p>
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                  <label for="checkbox">¿Eres estudiante?</label>
+                </p>
+                <p>
+                  <label>
+                    <input type="radio" name="Sexo" value="1" id="Sexo_0" />
+                    Hombre</label>
+                  <br />
+                  <label>
+                    <input type="radio" name="Sexo" value="2" id="Sexo_1" />
+                    Mujer</label>
+                    <br />
+                  <label>
+                    <input type="radio" name="Sexo" value="2" id="Sexo_1" />
+                    Otros</label>
+                </p>
+                <p>
+                  <label for="select">Edad</label>
+                  <select name="select" id="select">
+                    <option value="1">0-15</option>
+                    <option value="2">16-30</option>
+                    <option value="3">31-45</option>
+                    <option value="4">46-60</option>
+                    <option value="5">61-75</option>
+                    <option value="6">76-90</option>
+                    <option value="7">91-105</option>
+                  </select>
+                </p>
+                <p>
+                  <input name="oculto" type="hidden" id="oculto" value="valorOculto" />
+                  <br />
+                </p>
+                <p>
+                  <input class="botonForm" type="submit" name="Enviar" id="Enviar" value="Enviar el formulario" />
+                </p>
+              </form>
+        </article>
+    </section>
+    <footer>
+        <div class="containtFooter">
+            <h3>Información Legal</h3>
+            <hr />
+            <ol>
+                <li><a href="../pages/aviso_legal.html" target="_blank">Aviso Legal</a></li>
+                <li><a href="../pages/politica_cookies.html" target="_blank">Política de Cookies</a></li>
+                <li><a href="../pages/politica_privacidad.html" target="_blank">Política de Privacidad</a></li>
+            </ol>
+        </div>
+        <div class="containtFooter">
+            <h3>Redes Sociales</h3>
+            <hr />
+            <span id="centrarIconos">
+                <a href="https://www.facebook.com/"><img src="../recursos/icon-face.png" alt="icono-facebook"
+                        width="50px" height="50px" /></a>
+                <a href="https://twitter.com/"><img src="../recursos/icon-twitter.png" alt="icono-twitter" width="50px"
+                        height="50px" /></a>
+                <a href="https://www.instagram.com/"><img src="../recursos/icon-insta.png" alt="icono-instagram"
+                        width="50px" height="50px" /></a>
+            </span>
+        </div>
+        <div class="containtFooter">
+            <h3>Webs de Recursos 3D</h3>
+            <hr />
+            <a href="https://www.thingiverse.com/"><img src="../recursos/banner-1.jpg" width="150px"
+                    height="75px" /></a>
+            <a href="https://cults3d.com/"><img src="../recursos/banner-2.png" width="100px" height="100px" /></a>
+        </div>
+    </footer>
+</body>
+
+</html>
